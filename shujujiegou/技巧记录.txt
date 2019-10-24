@@ -1,0 +1,16 @@
+2019年10月1日
+int a=102;
+std::string res;
+std::stringstream ss;          
+ss << a;                      
+ss >> res;
+std::cout << res ;
+这是把数字字符化
+
+2019年10月3日
+const的值不可改变，不占空间，定义的量是不可变变量
+const 推出的初始目的，正是为了取代预编译指令，消除它的缺点，同时继承它的优点。
+
+std::default_random_engine e(time(nullptr));//随机数引擎
+std::uniform_int_distribution<unsigned> u(0, 53);//整型分布
+int rand = u(e);//生成随机数

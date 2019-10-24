@@ -1,0 +1,57 @@
+	2018-2019 9月
+	sequence_list *L= new sequence_list();
+	ListInsert(*L, 1, 2);
+	std::cout << L->date[0] << L->date[1] << std::endl;
+	ListDelete(*L, 2);
+	int a = LocatElem(*L, 2);
+	std::cout << a;
+	linkList L;
+	List_TailInsert(L);
+	std::cout<<L->next->data<<L->next->next->data;
+	int i;
+	std::cin >> i;
+	std::cout << std::bitset<sizeof(int) * 8>(i);
+	system("pause");
+
+2019 9月31日
+	fmod()函数和modf()函数是求余的函数，modf可以在求余时得到整数部分
+
+2019年10月2日
+	MGrape *mg1=new MGrape();
+	VexAss(mg1->Vex);
+	VexAss(*mg1);
+	std::cout << mg1->Vex[2];
+2019年10月3日
+	VNode *N1 = new VNode();
+	VNode *N2 = new VNode();
+	VNode *N3 = new VNode();
+	VNode *N4 = new VNode();
+	N1->data='a';
+	N1->first->adjvex;
+2019年10月12日
+	std::string *a;
+	std::string b = "adaa";
+	a = &b;
+	b = "adasa";
+	//int l[] = {4,2,-3};
+	//int a;
+	//a=Min(l);
+
+	2019年10月13日
+	int a[] = { 2,10, 6,1,9,30};
+	int b[1000] = {0};
+	for (int i = 0; i <= 5; i++)
+	{
+		b[a[i]] = 1;
+	}
+
+	2019年10月19日
+	int i = 0;
+	std::cout << i;
+	{
+		int i = 1;
+		std::cout << i;
+	}
+	std::cout << i;
+	system("pause");
+	return 0;
