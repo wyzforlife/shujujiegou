@@ -14,3 +14,13 @@ const 推出的初始目的，正是为了取代预编译指令，消除它的缺点，同时继承它的优点。
 std::default_random_engine e(time(nullptr));//随机数引擎
 std::uniform_int_distribution<unsigned> u(0, 53);//整型分布
 int rand = u(e);//生成随机数
+
+2019年11月2日
+int a[54] = {0};
+	int i=0;
+	RandCards(a);
+	QuickSort(a, 0, 53);
+	while(i!=54)
+		std::cout << a[i++]<<"\n";
+	system("pause");
+	return 0;//测试排序的正确性
