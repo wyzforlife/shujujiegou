@@ -4,7 +4,6 @@
 #include"iostream"
 #include<random>
 #include<time.h>
-void creatTree();
 int partition(int a[], int low, int high);
 void QuickSort(int a[], int low, int high);
 void RandCards(int a[])
