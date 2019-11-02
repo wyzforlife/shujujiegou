@@ -126,6 +126,8 @@
     <ClCompile Include="List.cpp" />
     <ClCompile Include="other.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="sort.cpp" />
+    <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="testcode.txt" />

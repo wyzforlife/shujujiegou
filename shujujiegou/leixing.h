@@ -49,3 +49,15 @@ public:
 	Adjlist vertices;//邻接表
 	int vexnum, arcnum;//图的顶点数和弧数
 }AlGraph;//以邻接表存储的图类型
+
+template <typename T>
+struct NODE                            // 节点模板
+{
+public:
+	T m_data;                          // 数据
+	NODE *m_pLeft;                     // 左子树指针
+	NODE *m_pRight;                    // 右子树指针
+	NODE(T value) : m_data(value),  // 节点构造函数
+		m_pLeft(0), m_pRight(0)
+	{}
+};

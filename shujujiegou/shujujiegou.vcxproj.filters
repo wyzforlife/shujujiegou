@@ -41,6 +41,12 @@
     <ClCompile Include="main.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="testcode.txt">
